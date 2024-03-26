@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+        Интернет-магазин
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="..\styles\style.css" />
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="http://">Одежда</a></li>
+    <li><a href="http://">Обувь</a></li>
+    <li><a href="http://">Куртки</a></li>
+  </ul>
+</nav>
+{% block content %}
+<h1> Магазин одежды</h1>
+{% endblock %}
+
+<div class="footer">
+  <p>Контактная информация: phone@mail.ru</p>
+    <p>Авторские права &copy; 2023</p>
+</div>
+
+
+</body>
+</html>
